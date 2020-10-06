@@ -1,4 +1,4 @@
-# Sample AEM project template
+# AEM project template
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 
@@ -11,7 +11,7 @@ The main parts of the template are:
 	- Created component that displays expected result and can be customized to show pets for female or male or     	both
 	- Also can customize pet type to show result as per petType- default being cat
 * ui.content: contains page that has component displaying result using the components from the ui.apps
- Url : http://localhost:<port>/editor.html/content/codingTest/pets.html
+ Url : http://localhost:<port>/content/codingTest/pets.html
 
 ## How to build
 
@@ -36,10 +36,3 @@ There are three levels of testing contained in the project:
 
     mvn clean test
 
-
-
-## Maven settings
-
-The project comes with the auto-public repository configured. To setup the repository in your Maven settings, refer to:
-
-    http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
