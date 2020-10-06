@@ -1,0 +1,28 @@
+<h1>PETS DETAILS</h1>
+<sly data-sly-use.petdetails="com.aem.coding.challenge.core.models.PetOwnerComponent">
+<div id="petdetails">
+	<div id="female" data-sly-test="${properties.gender == 'female'}">
+    <h2>Female</h2>
+    <ul data-sly-list="${petDetails.result.femaleOwnedPets}"> 
+        <li>${item}</li>
+    </ul>
+    </div>
+    <div id="male" data-sly-test="${properties.gender == 'male'}">
+    <h2>Male</h2>
+        <ul data-sly-list="${petDetails.result.maleOwnedPets}"> 
+        <li>${item}</li>
+    </ul>
+    </div>
+    <div id="both" data-sly-test="${properties.gender == 'both'}">
+    <h2>Female</h2>
+        <ul data-sly-list="${petDetails.result.femaleOwnedPets}"> 
+        <li>${item}</li>
+    </ul>
+    <h2>Male</h2>
+        <ul data-sly-list="${petDetails.result.maleOwnedPets}"> 
+        <li>${item}</li>
+    </ul>
+    </div>
+
+</div>
+</sly>

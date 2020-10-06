@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>codingTest - UI content</comment>
+<entry key="createdBy">saura</entry>
+<entry key="name">codingTest.ui.content</entry>
+<entry key="created">2020-10-06T15:35:19.556+1100</entry>
+<entry key="groupId">codingTest</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">codingTest</entry>
+<entry key="description">UI content package for codingTest</entry>
+<entry key="artifactId">codingTest.ui.content</entry>
+<entry key="path">/etc/packages/codingTest/codingTest.ui.content.zip</entry>
+</properties>

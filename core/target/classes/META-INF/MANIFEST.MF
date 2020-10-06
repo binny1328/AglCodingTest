@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1601958889401
+Build-Jdk: 1.8.0
+Built-By: saura
+Bundle-Description: Core bundle for codingTest
+Bundle-ManifestVersion: 2
+Bundle-Name: codingTest - Core
+Bundle-SymbolicName: codingTest.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.aem.coding.challenge.core.models;uses:="javax.annota
+ tion,javax.inject,org.apache.sling.api.resource,org.apache.sling.models
+ .annotations";version="1.0.0",com.aem.coding.challenge.core;version="1.
+ 0",com.aem.coding.challenge.core.service;uses:="com.aem.coding.challeng
+ e.core.models";version="1.0.0"
+Import-Package: javax.inject;version="0.0.0",com.aem.coding.challenge.co
+ re.models,com.aem.coding.challenge.core.service,com.fasterxml.jackson.c
+ ore;version="[2.11,3)",com.fasterxml.jackson.core.type;version="[2.11,3
+ )",com.fasterxml.jackson.databind;version="[2.11,3)",javax.annotation,o
+ rg.apache.http,org.apache.http.client,org.apache.http.client.methods,or
+ g.apache.http.impl.client,org.apache.http.util,org.apache.sling.api.res
+ ource;version="[2.9,3)",org.apache.sling.models.annotations;version="[1
+ .2,2)",org.slf4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="com.aem.codin
+ g.challenge.core.service.PetOwnerService"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/PetOwnerDetails.xml
+Sling-Model-Packages: com.aem.coding.challenge.core.models
+Tool: Bnd-3.3.0.201609221906
