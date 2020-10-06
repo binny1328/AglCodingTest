@@ -24,7 +24,7 @@ If you have a running AEM instance you can build and package the whole project a
     mvn clean install -PautoInstallPackage
     
 
-to deploy only the bundle to the author, run
+to deploy only the bundle to the aem instance, run
 
     mvn clean install -PautoInstallBundle
 
